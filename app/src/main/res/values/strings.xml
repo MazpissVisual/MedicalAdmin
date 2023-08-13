@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Admin Medical</string>
+    <string name="title">Medical Life Admin</string>
+    <string name="id_Input">Id Barang</string>
+    <string name="input_Name">Nama Barang</string>
+    <string name="input_harga">Harga Barang</string>
+    <string name="Input_Deskripsi">Deskripsi Barang</string>
+    <string name="Input_Rules">Aturan Pemakaian</string>
+    <string name="upload">Upload</string>
+</resources>
