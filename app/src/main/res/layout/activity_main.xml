@@ -73,7 +73,7 @@
         app:layout_constraintTop_toBottomOf="@+id/input_namaProduct">
 
       <com.google.android.material.textfield.TextInputEditText
-          android:id="@+id/edt_Product"
+          android:id="@+id/edt_price"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:fontFamily="@font/poppins_light"
@@ -137,12 +137,13 @@
         android:layout_marginTop="20dp"
         android:layout_marginStart="20dp"
         android:text="Upload Gambar"
-        android:textColor="@color/black"
+        android:textColor="@color/white"
         android:fontFamily="@font/poppins_regular"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/input_Rules" />
 
     <TextView
+        android:id="@+id/tvSelectedImage"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
@@ -150,6 +151,16 @@
         android:text="Jumlah"
         app:layout_constraintStart_toEndOf="@+id/btn_img"
         app:layout_constraintTop_toTopOf="@+id/btn_img" />
+
+    <ProgressBar
+        android:id="@+id/progessBarInput"
+        android:layout_width="wrap_content"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
   </androidx.constraintlayout.widget.ConstraintLayout>
 
